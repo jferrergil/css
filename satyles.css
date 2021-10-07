@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(images/pattern.png);
+  background-repeat: repeat;
+}
+
+.menu_header {
+  display: flex;
+  background-color: #a593c2;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.principal_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu_list {
+  display: flex;
+  list-style: none;
+}
+
+.menu_list li {
+  margin: 0 1rem;
+}
+
+.menu_list li a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.img_cake {
+  height: 3rem;
+}
